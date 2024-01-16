@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-15T09:38:02 IST" name="Suite" finished-at="2024-01-15T09:38:48 IST" duration-ms="45384">
+    <groups>
+      <group name="Error Validations">
+        <method signature="Error_validationtest.loginerrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" name="loginerrortest" class="Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest"/>
+        <method signature="Error_validationtest.producterrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" name="producterrortest" class="Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest"/>
+      </group> <!-- Error Validations -->
+      <group name="datatest">
+        <method signature="Order_submit_test.ordersubmittest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" name="ordersubmittest" class="Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test"/>
+      </group> <!-- datatest -->
+    </groups>
+    <test started-at="2024-01-15T09:38:02 IST" name="Submit order Test" finished-at="2024-01-15T09:38:33 IST" duration-ms="31028">
+      <class name="Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test">
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:03 IST" name="openpage" finished-at="2024-01-15T09:38:11 IST" duration-ms="7986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpage -->
+        <test-method signature="ordersubmittest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:11 IST" name="ordersubmittest" data-provider="getdata" finished-at="2024-01-15T09:38:20 IST" duration-ms="9025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[govind1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation@1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordersubmittest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:20 IST" name="teardown" finished-at="2024-01-15T09:38:20 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:20 IST" name="openpage" finished-at="2024-01-15T09:38:22 IST" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpage -->
+        <test-method signature="ordersubmittest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:22 IST" name="ordersubmittest" data-provider="getdata" finished-at="2024-01-15T09:38:30 IST" duration-ms="8906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jadhavgovind8140@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Balasaheb@1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordersubmittest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:30 IST" name="teardown" finished-at="2024-01-15T09:38:31 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:31 IST" name="openpage" finished-at="2024-01-15T09:38:32 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpage -->
+        <test-method signature="orderhistorytest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:32 IST" name="orderhistorytest" finished-at="2024-01-15T09:38:33 IST" depends-on-methods="Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.ordersubmittest" duration-ms="784" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.orderhistorytest(Order_submit_test.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistorytest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@554e218]" started-at="2024-01-15T09:38:33 IST" name="teardown" finished-at="2024-01-15T09:38:33 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test -->
+    </test> <!-- Submit order Test -->
+    <test started-at="2024-01-15T09:38:34 IST" name="Error Validations test" finished-at="2024-01-15T09:38:48 IST" duration-ms="14054">
+      <class name="Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest">
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:34 IST" name="openpage" finished-at="2024-01-15T09:38:35 IST" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpage -->
+        <test-method retried="true" signature="loginerrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:35 IST" name="loginerrortest" finished-at="2024-01-15T09:38:35 IST" duration-ms="432" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest.loginerrortest(Error_validationtest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrortest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:35 IST" name="teardown" finished-at="2024-01-15T09:38:36 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:36 IST" name="openpage" finished-at="2024-01-15T09:38:37 IST" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpage -->
+        <test-method signature="loginerrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:37 IST" name="loginerrortest" finished-at="2024-01-15T09:38:38 IST" duration-ms="438" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest.loginerrortest(Error_validationtest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrortest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:38 IST" name="teardown" finished-at="2024-01-15T09:38:38 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:38 IST" name="openpage" finished-at="2024-01-15T09:38:39 IST" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpage -->
+        <test-method signature="producterrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:39 IST" name="producterrortest" finished-at="2024-01-15T09:38:47 IST" duration-ms="8067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producterrortest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@53dbe163]" started-at="2024-01-15T09:38:47 IST" name="teardown" finished-at="2024-01-15T09:38:48 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest -->
+    </test> <!-- Error Validations test -->
+  </suite> <!-- Suite -->
+</testng-results>
