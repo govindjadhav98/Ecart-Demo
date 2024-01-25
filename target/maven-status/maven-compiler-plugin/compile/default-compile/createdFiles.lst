@@ -2,8 +2,12 @@ E_commerse\landing_Page\Cartpage.class
 E_commerse\Pageobject\OrderPage.class
 E_commerse\landing_Page\Checkout_page.class
 Selenium_Project_01_test\SeleniuM_Framewor\App.class
+Email_config\Email_confi_javaxmail$1.class
 E_commerse\landing_Page\Landing_page.class
+Email_config\Email_confi_javaxmail.class
+Email_config\Email_confi_javaxmail2_Attachment$1.class
 E_commerse\landing_Page\Product_Catalogue.class
 E_commerse\landing_Page\Confirmation_page.class
 E_commerse\Abstractcomponents\Abstract_Components.class
 E_commerse\Abstractcomponents\ExtentReporterng.class
+Email_config\Email_confi_javaxmail2_Attachment.class
