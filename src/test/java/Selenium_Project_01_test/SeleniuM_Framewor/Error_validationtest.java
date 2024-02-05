@@ -39,7 +39,7 @@ public class Error_validationtest extends Basetest{
 		 productpage.AddproductToCart(productname);
 		 Cartpage Cartpage = productpage.gotocart();
 		 
-		 Assert.assertFalse(Cartpage.productpresentincart("ADIDAS ORIGINAL"));
+		 Assert.assertFalse(Cartpage.productpresentincart("ADIDAS ORIGINALl"));
 	
 	}
 }
