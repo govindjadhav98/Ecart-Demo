@@ -8,20 +8,28 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import javax.xml.transform.Result;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.internal.ITestResultNotifier;
 
+import com.aventstack.extentreports.model.Test;
 import com.google.common.io.Files;
 
 import E_commerse.landing_Page.Landing_page;
+import io.qameta.allure.AllureResultsWriter;
+import io.qameta.allure.Attachment;
 
 public class Basetest {
 	public WebDriver driver;
@@ -73,5 +81,7 @@ return System.getProperty("user.dir")+"//report//"+testcasename+".png";
 	public void teardown() {
 		driver.quit();
 	}
+	
+	}
 		
-}
+

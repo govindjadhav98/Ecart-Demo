@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="1" total="7" passed="3" failed="2" skipped="0">
+<testng-results retried="1" ignored="1" total="7" passed="1" failed="3" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T11:21:28 IST" name="Suite" finished-at="2024-01-24T11:37:45 IST" duration-ms="977438">
+  <suite started-at="2024-01-27T13:36:43 IST" name="Suite" finished-at="2024-01-27T13:38:29 IST" duration-ms="105572">
     <groups>
       <group name="Error Validations">
         <method signature="Error_validationtest.loginerrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" name="loginerrortest" class="Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest"/>
@@ -12,13 +12,13 @@
         <method signature="Order_submit_test.ordersubmittest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" name="ordersubmittest" class="Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test"/>
       </group> <!-- datatest -->
     </groups>
-    <test started-at="2024-01-24T11:21:28 IST" name="Submit order Test" finished-at="2024-01-24T11:37:15 IST" duration-ms="947242">
+    <test started-at="2024-01-27T13:36:43 IST" name="Submit order Test" finished-at="2024-01-27T13:38:00 IST" duration-ms="77219">
       <class name="Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test">
-        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:21:29 IST" name="openpage" finished-at="2024-01-24T11:26:39 IST" duration-ms="310478" status="PASS">
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-27T13:36:44 IST" name="openpage" finished-at="2024-01-27T13:37:35 IST" duration-ms="50709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openpage -->
-        <test-method signature="ordersubmittest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:26:40 IST" name="ordersubmittest" data-provider="getdata" finished-at="2024-01-24T11:26:51 IST" duration-ms="11264" status="PASS">
+        <test-method signature="ordersubmittest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-27T13:37:35 IST" name="ordersubmittest" data-provider="getdata" finished-at="2024-01-27T13:37:43 IST" duration-ms="8381" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -36,58 +36,44 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ordersubmittest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:26:51 IST" name="teardown" finished-at="2024-01-24T11:26:51 IST" duration-ms="192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:26:51 IST" name="openpage" finished-at="2024-01-24T11:31:58 IST" duration-ms="307146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openpage -->
-        <test-method signature="ordersubmittest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:31:58 IST" name="ordersubmittest" data-provider="getdata" finished-at="2024-01-24T11:32:10 IST" duration-ms="11368" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jadhavgovind8140@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Balasaheb@1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ZARA COAT 3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ordersubmittest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:32:10 IST" name="teardown" finished-at="2024-01-24T11:32:10 IST" duration-ms="299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:32:10 IST" name="openpage" finished-at="2024-01-24T11:37:13 IST" duration-ms="303291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openpage -->
-        <test-method signature="orderhistorytest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:37:13 IST" name="orderhistorytest" finished-at="2024-01-24T11:37:14 IST" depends-on-methods="Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.ordersubmittest" duration-ms="1249" status="FAIL">
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Element <button class="btn btn-custom"> is not clickable at point (1681,27) because another element <div class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating"> obscures it
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [07bbbd2c-1a39-428b-be5f-ef706bba40e2, clickElement {id=c9f5c183-4bea-40be-a45e-30e5c43999d7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:43895, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15084, moz:profile: C:\Users\GOVIND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (07bbbd2c-1a39-428b-be5f-ef706bba40e2)] -> xpath: //button[@routerlink='/dashboard/cart']]
+Session ID: 07bbbd2c-1a39-428b-be5f-ef706bba40e2]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.orderhistorytest(Order_submit_test.java:66)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn-custom"> is not clickable at point (1681,27) because another element <div class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating"> obscures it
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [07bbbd2c-1a39-428b-be5f-ef706bba40e2, clickElement {id=c9f5c183-4bea-40be-a45e-30e5c43999d7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0, moz:accessibilityChecks: false, moz:buildID: 20230309232128, moz:debuggerAddress: 127.0.0.1:43895, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15084, moz:profile: C:\Users\GOVIND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (07bbbd2c-1a39-428b-be5f-ef706bba40e2)] -> xpath: //button[@routerlink='/dashboard/cart']]
+Session ID: 07bbbd2c-1a39-428b-be5f-ef706bba40e2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at E_commerse.Abstractcomponents.Abstract_Components.gotocart(Abstract_Components.java:46)
+at Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.ordersubmittest(Order_submit_test.java:48)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -120,23 +106,161 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderhistorytest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-24T11:37:15 IST" name="teardown" finished-at="2024-01-24T11:37:15 IST" duration-ms="156" status="PASS">
+        </test-method> <!-- ordersubmittest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-27T13:37:43 IST" name="teardown" finished-at="2024-01-27T13:37:44 IST" duration-ms="815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test -->
-    </test> <!-- Submit order Test -->
-    <test started-at="2024-01-24T11:37:16 IST" name="Error Validations test" finished-at="2024-01-24T11:37:45 IST" duration-ms="29445">
-      <class name="Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest">
-        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:16 IST" name="openpage" finished-at="2024-01-24T11:37:21 IST" duration-ms="5485" status="PASS">
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-27T13:37:44 IST" name="openpage" finished-at="2024-01-27T13:37:51 IST" duration-ms="7185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openpage -->
-        <test-method retried="true" signature="loginerrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:21 IST" name="loginerrortest" finished-at="2024-01-24T11:37:22 IST" duration-ms="816" status="SKIP">
+        <test-method signature="ordersubmittest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-27T13:37:51 IST" name="ordersubmittest" data-provider="getdata" finished-at="2024-01-27T13:37:59 IST" duration-ms="7929" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jadhavgovind8140@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Balasaheb@1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <button class="btn btn-custom"> is not clickable at point (1681,27) because another element <div class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating"> obscures it
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a88b1f3c-789b-44ca-af2c-6a7f583d2432, clickElement {id=7f00ab26-7d89-4e90-b212-118d9f52250e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:8563, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5204, moz:profile: C:\Users\GOVIND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:8563/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (a88b1f3c-789b-44ca-af2c-6a7f583d2432)] -> xpath: //button[@routerlink='/dashboard/cart']]
+Session ID: a88b1f3c-789b-44ca-af2c-6a7f583d2432]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn-custom"> is not clickable at point (1681,27) because another element <div class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating"> obscures it
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a88b1f3c-789b-44ca-af2c-6a7f583d2432, clickElement {id=7f00ab26-7d89-4e90-b212-118d9f52250e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:8563, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5204, moz:profile: C:\Users\GOVIND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:8563/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (a88b1f3c-789b-44ca-af2c-6a7f583d2432)] -> xpath: //button[@routerlink='/dashboard/cart']]
+Session ID: a88b1f3c-789b-44ca-af2c-6a7f583d2432
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at E_commerse.Abstractcomponents.Abstract_Components.gotocart(Abstract_Components.java:46)
+at Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.ordersubmittest(Order_submit_test.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordersubmittest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-27T13:37:59 IST" name="teardown" finished-at="2024-01-27T13:38:00 IST" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="orderhistorytest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]" started-at="2024-01-27T13:38:00 IST" name="orderhistorytest" finished-at="2024-01-27T13:38:00 IST" depends-on-methods="Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.ordersubmittest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.orderhistorytest() on instance Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832 depends on not successfully finished methods 
+[Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.ordersubmittest() on instance Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.orderhistorytest() on instance Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832 depends on not successfully finished methods 
+[Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test.ordersubmittest() on instance Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test@64bce832]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistorytest -->
+      </class> <!-- Selenium_Project_01_test.SeleniuM_Framewor.Order_submit_test -->
+    </test> <!-- Submit order Test -->
+    <test started-at="2024-01-27T13:38:01 IST" name="Error Validations test" finished-at="2024-01-27T13:38:29 IST" duration-ms="27975">
+      <class name="Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest">
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:01 IST" name="openpage" finished-at="2024-01-27T13:38:06 IST" duration-ms="5109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openpage -->
+        <test-method retried="true" signature="loginerrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:06 IST" name="loginerrortest" finished-at="2024-01-27T13:38:06 IST" duration-ms="397" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -184,15 +308,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginerrortest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:22 IST" name="teardown" finished-at="2024-01-24T11:37:22 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:06 IST" name="teardown" finished-at="2024-01-27T13:38:07 IST" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:22 IST" name="openpage" finished-at="2024-01-24T11:37:27 IST" duration-ms="5191" status="PASS">
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:07 IST" name="openpage" finished-at="2024-01-27T13:38:12 IST" duration-ms="5279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openpage -->
-        <test-method signature="loginerrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:27 IST" name="loginerrortest" finished-at="2024-01-24T11:37:28 IST" duration-ms="812" status="FAIL">
+        <test-method signature="loginerrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:12 IST" name="loginerrortest" finished-at="2024-01-27T13:38:13 IST" duration-ms="389" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -240,19 +364,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginerrortest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:29 IST" name="teardown" finished-at="2024-01-24T11:37:29 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:13 IST" name="teardown" finished-at="2024-01-27T13:38:14 IST" duration-ms="921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:29 IST" name="openpage" finished-at="2024-01-24T11:37:35 IST" duration-ms="5749" status="PASS">
+        <test-method is-config="true" signature="openpage()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:14 IST" name="openpage" finished-at="2024-01-27T13:38:19 IST" duration-ms="4911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openpage -->
-        <test-method signature="producterrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:35 IST" name="producterrortest" finished-at="2024-01-24T11:37:45 IST" duration-ms="9898" status="PASS">
+        <test-method signature="producterrortest()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:19 IST" name="producterrortest" finished-at="2024-01-27T13:38:27 IST" duration-ms="8259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- producterrortest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-24T11:37:45 IST" name="teardown" finished-at="2024-01-24T11:37:45 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Selenium_Project_01_test.SeleniuM_Framewor.Error_validationtest@6e4566f1]" started-at="2024-01-27T13:38:27 IST" name="teardown" finished-at="2024-01-27T13:38:29 IST" duration-ms="1458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

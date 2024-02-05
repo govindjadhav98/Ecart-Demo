@@ -2,6 +2,8 @@ package E_commersetest.AbstratctCopmponents;
 
 import java.io.IOException;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -12,6 +14,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 import E_commerse.Abstractcomponents.ExtentReporterng;
+import io.qameta.allure.Attachment;
 
 public class Testnglistners extends Basetest implements ITestListener {
 	ExtentTest test ;
@@ -29,8 +32,9 @@ ThreadLocal<ExtentTest> extenttest=new ThreadLocal<ExtentTest>();
 
 	}
 
-	@Override
+	@Override 
 	public void onTestFailure(ITestResult result) {
+		
 		extenttest.get().fail(result.getThrowable());
 		String path = null;
 		WebDriver driver = null;
@@ -47,7 +51,13 @@ ThreadLocal<ExtentTest> extenttest=new ThreadLocal<ExtentTest>();
 			e.printStackTrace();
 		}
 		test.addScreenCaptureFromPath(path, result.getMethod().getMethodName());
+		
+	
+
+
 	}
+	
+	
 	@Override
 	public void onTestSkipped(ITestResult result) {
 

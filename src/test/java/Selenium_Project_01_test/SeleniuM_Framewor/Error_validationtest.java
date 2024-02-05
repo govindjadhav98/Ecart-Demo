@@ -27,7 +27,7 @@ public class Error_validationtest extends Basetest{
 		
 		lpage.logintoApp("gjadhav12345@gmail.com", "Balasaheb@1");
 		
-		Assert.assertTrue(lpage.geterrormessg().equals("Incorrect email or password Entered."));
+		Assert.assertTrue(lpage.geterrormessg().equals("Incorrect email or password."));
 	}
 	
 	@Test (groups = {"Error Validations"})
